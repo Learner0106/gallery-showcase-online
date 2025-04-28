@@ -1,4 +1,3 @@
-
 export interface Artwork {
   id: number;
   title: string;
@@ -31,66 +30,66 @@ export const artworks: Artwork[] = [
   },
   {
     id: 2,
-    title: "Urban Solitude",
+    title: "Urban Dreams",
     artist: "Marcus Chen",
-    description: "A photorealistic cityscape exploring themes of isolation in urban environments.",
+    description: "Abstract interpretation of city life through bold strokes and vivid colors.",
     imageUrl: "https://images.unsplash.com/photo-1549490349-8643362247b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     year: "2022",
-    category: "Photography"
+    category: "Drawing"
   },
   {
     id: 3,
     title: "Fragments of Memory",
     artist: "Sofia Patel",
-    description: "Abstract composition inspired by fragmented memories and dreams.",
+    description: "Mixed media wall art exploring themes of memory and nostalgia.",
     imageUrl: "https://images.unsplash.com/photo-1549887534-1541e9326642?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     year: "2023",
-    category: "Mixed Media"
+    category: "Wall Art"
   },
   {
     id: 4,
-    title: "Echoes of Silence",
+    title: "Echoes of Nature",
     artist: "Elena Montgomery",
-    description: "A minimalist exploration of negative space and subtle textures.",
+    description: "A series of interconnected sketches celebrating natural forms.",
     imageUrl: "https://images.unsplash.com/photo-1557672172-298e090bd0f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     year: "2021",
-    category: "Sculpture"
+    category: "Sketching"
   },
   {
     id: 5,
-    title: "Cosmic Dance",
+    title: "Abstract Harmony",
     artist: "Marcus Chen",
-    description: "Digital artwork inspired by celestial movements and cosmic patterns.",
+    description: "Contemporary abstract painting exploring balance and movement.",
     imageUrl: "https://images.unsplash.com/photo-1547891654-e66ed7ebb968?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     year: "2023",
-    category: "Digital Art"
-  },
-  {
-    id: 6,
-    title: "Whispers of the Sea",
-    artist: "Sofia Patel",
-    description: "Abstract seascape capturing the essence of ocean movements.",
-    imageUrl: "https://images.unsplash.com/photo-1571115764595-644a1f56a55c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    year: "2022",
     category: "Painting"
   },
   {
+    id: 6,
+    title: "Fluid Expressions",
+    artist: "Sofia Patel",
+    description: "Expressive wall art piece using fluid painting techniques.",
+    imageUrl: "https://images.unsplash.com/photo-1571115764595-644a1f56a55c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    year: "2022",
+    category: "Wall Art"
+  },
+  {
     id: 7,
-    title: "Geometric Harmony",
+    title: "Urban Sketches",
     artist: "James Wilson",
-    description: "Contemporary piece exploring balance through geometric forms.",
+    description: "A series of detailed architectural sketches of city landmarks.",
     imageUrl: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     year: "2023",
-    category: "Sculpture"
+    category: "Sketching"
   },
   {
     id: 8,
-    title: "Ethereal Light",
+    title: "Charcoal Dreams",
     artist: "James Wilson",
-    description: "Light-based installation creating immersive spatial experiences.",
+    description: "Expressive charcoal drawing exploring light and shadow.",
     imageUrl: "https://images.unsplash.com/photo-1554907984-15263bfd63bd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     year: "2022",
-    category: "Installation"
+    category: "Drawing"
   }
 ];
 
