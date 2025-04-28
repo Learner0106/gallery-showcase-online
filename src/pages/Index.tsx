@@ -1,12 +1,24 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import { useEffect, useState } from 'react';
+import Navbar from '@/components/Navbar';
+import HeroSection from '@/components/HeroSection';
+import GalleryGrid from '@/components/GalleryGrid';
+import ArtistSpotlight from '@/components/ArtistSpotlight';
+import Footer from '@/components/Footer';
+import { artworks, artists } from '@/data/artworks';
 
 const Index = () => {
+  // Get featured artwork and artist
+  const featuredArtwork = artworks.find(artwork => artwork.featured) || artworks[0];
+  const featuredArtist = artists.find(artist => artist.featured) || artists[0];
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen w-full">
+      <Navbar />
+      <HeroSection artwork={featuredArtwork} />
+      <GalleryGrid artworks={artworks} />
+      <ArtistSpotlight artist={featuredArtist} />
+      <Footer />
     </div>
   );
 };
