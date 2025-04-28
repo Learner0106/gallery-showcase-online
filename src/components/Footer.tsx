@@ -1,5 +1,5 @@
 
-import { Gallery, Instagram, Twitter, Facebook, Mail, MapPin, Phone } from 'lucide-react';
+import { GalleryVertical, Instagram, Twitter, Facebook, Mail, MapPin, Phone } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center mb-6">
-              <Gallery className="h-6 w-6 mr-2" />
+              <GalleryVertical className="h-6 w-6 mr-2" />
               <span className="font-display text-lg">Artistry</span>
             </div>
             <p className="text-primary-foreground/80 text-sm mb-6 max-w-xs">
